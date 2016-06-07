@@ -1,7 +1,7 @@
 # Installation directories
 
 # Default prefix
-PREFIX ?= /usr
+PREFIX ?= /usr/local
 
 # Lua version and dirs
 LUA_SYS_VER ?= 5.2
