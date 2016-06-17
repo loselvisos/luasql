@@ -30,6 +30,7 @@ $(OBJS) : $(SRCS)
 install:
 	mkdir -p $(LUA_LIBDIR)/luasql
 	cp src/*.so $(LUA_LIBDIR)/luasql
+	cp src/*.so $(LUA_LIBDIR)	
 
 jdbc_driver:
 	cd src/jdbc; make $@
